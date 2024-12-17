@@ -48,7 +48,7 @@ onValue(mensagensRef, (snapshot) => {
   for (const id in data) {
     const mensagem = data[id];
     const div = document.createElement("div");
-    div.setAttribute("class", "alert alert-success w-100 p-3");
+    div.setAttribute("class", "alert alert-success w-100 p-3 maxWidth");
     
     
     div.textContent = `${mensagem.nome}: ${mensagem.mensagem}`;
