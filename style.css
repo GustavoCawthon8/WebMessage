@@ -1,0 +1,16 @@
+header {
+  position: fixed;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+}
+
+#form {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  background: #17202F;
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+
